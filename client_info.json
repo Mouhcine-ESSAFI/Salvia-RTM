@@ -1,0 +1,62 @@
+[
+    {
+        "address": "127.0.0.1",
+        "port": 47592,
+        "status_info": {                                                                                                    
+            "timestamp": "2024-09-02 13:13:18",
+            "cpu_usage": 6.9,
+            "memory": {
+                "used": 4.120647430419922,
+                "available": 6.397453308105469
+            },
+            "disk": {
+                "used": 20.652172088623047,
+                "free": 412.4421501159668
+            },
+            "network": {
+                "sent": 41.26235103607178,
+                "received": 1026.0607042312622
+            },
+            "system_info": {
+                "hostname": "mouhcine",
+                "uptime": {
+                    "days": 0,
+                    "hours": 3,
+                    "minutes": 56,
+                    "seconds": 45
+                }
+            }
+        },
+        "timestamp_received": "2024-09-02 13:13:19"
+    },
+    {
+        "address": "127.0.0.1",
+        "port": 47592,
+        "status_info": {
+            "timestamp": "2024-09-02 13:13:29",
+            "cpu_usage": 7.4,
+            "memory": {
+                "used": 4.089488983154297,
+                "available": 6.440940856933594
+            },
+            "disk": {
+                "used": 20.652175903320312,
+                "free": 412.44214630126953
+            },
+            "network": {
+                "sent": 41.265929222106934,
+                "received": 1026.0624198913574
+            },
+            "system_info": {
+                "hostname": "mouhcine",
+                "uptime": {
+                    "days": 0,
+                    "hours": 3,
+                    "minutes": 56,
+                    "seconds": 56
+                }
+            }
+        },
+        "timestamp_received": "2024-09-02 13:13:30"
+    }
+]

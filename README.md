@@ -1,49 +1,53 @@
-Real-Time Server Monitoring
-Monitor and visualize real-time system metrics from multiple client servers. This project includes a central server that collects data and displays it in a terminal-based table with dynamic updates and color-coded statuses.
+# Real-Time Server Monitoring
 
-🚀 Features
-Real-Time Data: Live system metrics from client servers.
-Dynamic Updates: Real-time terminal table updates using rich.
-Color-Coded Status: Green for connected servers, red for disconnected ones.
-Port Management: Handles server reconnects with varying ports.
-🛠️ Requirements
-Python 3.x
-rich library (for terminal display)
-📝 Installation
-Clone the Repository
+## 🚀 Features
 
-bash
-Copier le code
+### 📊 Real-Time Data
+- Live system metrics from client servers.
+
+### 🔄 Dynamic Updates
+- Real-time terminal table updates using `rich`.
+
+### 🎨 Color-Coded Status
+- Green for connected servers, red for disconnected ones.
+
+### 🔌 Port Management
+- Handles server reconnects with varying ports.
+
+## 🛠️ Requirements
+
+- **Python 3.x**
+- **`rich`** library (for terminal display)
+
+## 📝 Installation
+
+### 1. Clone the Repository
+
+
 git clone https://github.com/yourusername/your-repository.git
-cd your-repository
-Set Up a Virtual Environment
+cd your-repository 
 
-bash
-Copier le code
+### 2. Set Up a Virtual Environment
+
 python3 -m venv venv
 source venv/bin/activate
-Install Dependencies
 
-bash
-Copier le code
+### 3. Install Dependencies
 pip install rich
-⚙️ Usage
-Start the Central Server
 
-bash
-Copier le code
+### ⚙️ Usage
+#### 1. Start the Central Server
 python central-server.py
-Run the Client Server
 
+#### 2. Run the Client Server
 Update CENTRAL_SERVER_HOST and CENTRAL_SERVER_PORT in client-server.py, then:
 
-bash
-Copier le code
 python client-server.py
-🔧 Configuration
+
+## 🔧 Configuration
 HOST: IP address for the central server (default: 0.0.0.0).
 PORT: Port for the central server (default: 65432).
 DISCONNECT_THRESHOLD: Time in seconds to mark a server as disconnected.
 
-📫 Contact
-For questions or issues, please reach out to messafi@1337.gmail.com
+## 📫 Contact
+For questions or issues, messafi1337@gmail.com

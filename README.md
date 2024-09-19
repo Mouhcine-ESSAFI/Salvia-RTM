@@ -24,7 +24,7 @@
 ### 1. Clone the Repository
 
 
-git clone [https://github.com/yourusername/your-repository.git](https://github.com/Mouhcine-ESSAFI/Salvia-RTM.git)
+git clone https://github.com/Mouhcine-ESSAFI/Salvia-RTM.git
 cd your-repository 
 
 ### 2. Set Up a Virtual Environment

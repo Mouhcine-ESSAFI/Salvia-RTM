@@ -1,0 +1,62 @@
+{
+    "('192.168.1.21', 45924)": {
+        "address": "192.168.1.21",
+        "port": 42428,
+        "status_info": {
+            "timestamp": "2024-09-09 08:39:50",
+            "cpu_usage": 0.5,
+            "memory": {
+                "used": 0.0781402587890625,
+                "available": 1.6861343383789062
+            },
+            "disk": {
+                "used": 1.6896247863769531,
+                "free": 0.9899368286132812
+            },
+            "network": {
+                "sent": 0.31027698516845703,
+                "received": 0.2675619125366211
+            },
+            "system_info": {
+                "hostname": "salvia",
+                "uptime": {
+                    "days": 0,
+                    "hours": 1,
+                    "minutes": 10,
+                    "seconds": 6
+                }
+            }
+        },
+        "timestamp_received": "2024-09-09 08:39:51"
+    },
+    "('192.168.1.11', 57454)": {
+        "address": "192.168.1.11",
+        "port": 33804,
+        "status_info": {
+            "timestamp": "2024-09-09 11:30:39",
+            "cpu_usage": 6.6,
+            "memory": {
+                "used": 5.338432312011719,
+                "available": 5.030033111572266
+            },
+            "disk": {
+                "used": 43.84244918823242,
+                "free": 389.2518730163574
+            },
+            "network": {
+                "sent": 714.5667591094971,
+                "received": 16287.240545272827
+            },
+            "system_info": {
+                "hostname": "mouhcine-essafi",
+                "uptime": {
+                    "days": 4,
+                    "hours": 2,
+                    "minutes": 23,
+                    "seconds": 2
+                }
+            }
+        },
+        "timestamp_received": "2024-09-09 06:30:40"
+    }
+}
